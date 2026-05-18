@@ -53,7 +53,8 @@ Agri-bot-system/
 ---
 
 ## ⚙️ Installation & Setup
-
+## agri-model.pt is in backend/model_weights/
+## https://drive.google.com/file/d/1hhpO60KnXanw44JG71JczpJJMbrbVp7Z/view?usp=drive_link
 ### 1. Clone the Repository
 
 ```bash
