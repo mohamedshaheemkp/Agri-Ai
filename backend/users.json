@@ -1,0 +1,37 @@
+{
+  "1234567890": {
+    "phone": "1234567890",
+    "fullname": "Test User",
+    "password": "password",
+    "location": "ERODE",
+    "farm_type": "Mixed"
+  },
+  "6235437714": {
+    "phone": "6235437714",
+    "fullname": "Anshid Ismail",
+    "password": "anshisagri",
+    "location": "Other",
+    "farm_type": "Mixed"
+  },
+  "9562820107": {
+    "phone": "9562820107",
+    "fullname": "Anshid Ismail",
+    "password": "anshisagri",
+    "location": "Other",
+    "farm_type": "Mixed"
+  },
+  "08606152363": {
+    "phone": "08606152363",
+    "fullname": "mohamed shaheem kp",
+    "password": "12345678",
+    "location": "MALAPPURAM",
+    "farm_type": "Mixed"
+  },
+  "8606152363": {
+    "phone": "8606152363",
+    "fullname": "mohamed shaheem kp",
+    "password": "123456",
+    "location": "MALAPPURAM",
+    "farm_type": "Mixed"
+  }
+}

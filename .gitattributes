@@ -1,0 +1,4 @@
+models/saved_models/agri_v1_50_epochs/*.pt filter=lfs diff=lfs merge=lfs -text
+models/agri_model.pt filter=lfs diff=lfs merge=lfs -text
+models/best.pt filter=lfs diff=lfs merge=lfs -text
+backend/models/*.pt filter=lfs diff=lfs merge=lfs -text

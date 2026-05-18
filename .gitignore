@@ -1,0 +1,104 @@
+# Environments
+yolov9_env/
+yolov9_clean/
+backend/yolov9/yolov9_clean/
+.env
+backend/.env
+backend/.env.*
+.venv
+env/
+venv/
+ENV/
+env.bak/
+venv.bak/
+
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+build/
+develop-eggs/
+dist/
+downloads/
+eggs/
+.eggs/
+lib/
+lib64/
+parts/
+sdist/
+var/
+wheels/
+share/python-wheels/
+*.egg-info/
+.installed.cfg
+*.egg
+MANIFEST
+.python-version
+pip-log.txt
+pip-delete-this-directory.txt
+
+# PyTorch & YOLO
+*.pth
+*.pt
+*.onnx
+*.weights
+runs/
+backend/yolov9/runs/
+
+# Large Directories
+Dataset/
+backend/models/weights/
+
+# VS Code / IDE
+.vscode/
+.idea/
+*.swp
+*.swo
+
+# OS generated files
+.DS_Store
+.DS_Store?
+._*
+.Spotlight-V100
+.Trashes
+ehthumbs.db
+Thumbs.db
+
+# Jupyter Notebook
+.ipynb_checkpoints/
+*.ipynb_checkpoints
+
+# Logs
+logs/
+*.log
+
+
+frontend/node_modules/
+frontend/.vite/
+frontend/dist/
+
+# Test & debug images
+backend/noise_test.jpg
+backend/test_frame.jpg
+
+# Error / log text files
+backend/err.txt
+backend/load_err.txt
+
+
+# General Node.js
+node_modules/
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+.pnp/
+.pnp.js
+
+# Environment variables
+.env.local
+.env.development.local
+.env.test.local
+.env.production.local
+

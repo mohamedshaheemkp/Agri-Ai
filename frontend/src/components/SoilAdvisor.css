@@ -1,0 +1,241 @@
+.soil-advisor-modern {
+  padding: 1rem;
+}
+
+.input-collection-card {
+  padding: 2rem;
+}
+
+.mode-toggle-pills {
+  background: #f7fafc;
+  padding: 0.4rem;
+  border-radius: 14px;
+  display: flex;
+  gap: 0.4rem;
+  margin-bottom: 2rem;
+}
+
+.mode-pill {
+  flex: 1;
+  padding: 0.6rem;
+  border: none;
+  background: transparent;
+  border-radius: 10px;
+  font-weight: 700;
+  color: #718096;
+  cursor: pointer;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 0.5rem;
+  transition: all 0.2s;
+}
+
+.mode-pill.active {
+  background: white;
+  color: #48bb78;
+  box-shadow: 0 4px 6px -1px rgba(0, 0, 0, 0.05);
+}
+
+.soil-upload-area {
+  border: 2px dashed #edf2f7;
+  border-radius: 20px;
+  height: 240px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  cursor: pointer;
+  background: #f7fafc;
+  overflow: hidden;
+}
+
+.soil-upload-area img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+
+.coord-inputs {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 1.5rem;
+  margin-bottom: 1rem;
+}
+
+.input-group-modern {
+  display: flex;
+  flex-direction: column;
+  gap: 0.5rem;
+}
+
+.input-group-modern label {
+  font-size: 0.85rem;
+  font-weight: 700;
+  color: #718096;
+}
+
+.input-group-modern input {
+  background: #f7fafc;
+  border: 1px solid #e2e8f0;
+  padding: 0.8rem 1rem;
+  border-radius: 12px;
+  outline: none;
+  transition: all 0.2s;
+}
+
+.input-group-modern input:focus {
+  border-color: #48bb78;
+  background: white;
+}
+
+.btn-secondary-modern {
+  background: #f0fdf4;
+  color: #48bb78;
+  border: 1px solid #c6f6d5;
+  width: 100%;
+  padding: 0.8rem;
+  border-radius: 12px;
+  font-weight: 700;
+  cursor: pointer;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 0.5rem;
+}
+
+/* Results modern */
+.analysis-results-card {
+  padding: 2rem;
+  border-bottom: 4px solid #48bb78;
+}
+
+.results-header-modern {
+  display: flex;
+  align-items: center;
+  gap: 1rem;
+  margin-bottom: 2rem;
+}
+
+.results-header-modern h3 {
+  font-size: 1.4rem;
+  font-weight: 800;
+  margin: 0;
+}
+
+.analysis-pills-row {
+  display: flex;
+  gap: 1rem;
+  margin-bottom: 2rem;
+  flex-wrap: wrap;
+}
+
+.info-card-modern {
+  flex: 1;
+  min-width: 150px;
+  background: #f7fafc;
+  padding: 1rem;
+  border-radius: 20px;
+  display: flex;
+  align-items: center;
+  gap: 0.75rem;
+}
+
+.soil-type-pill { background-color: #f0fdf4; border: 1px solid #c6f6d5; }
+.ph-pill { background-color: #fff5f5; border: 1px solid #fed7d7; }
+.n-pill { background-color: #ebf8ff; border: 1px solid #bee3f8; }
+
+.icon-wrapper-modern {
+  width: 40px;
+  height: 40px;
+  border-radius: 12px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background: white;
+}
+
+.soil-type-pill .icon-wrapper-modern { color: #38a169; }
+.ph-pill .icon-wrapper-modern { color: #f56565; }
+.n-pill .icon-wrapper-modern { color: #3182ce; }
+
+.card-title-modern {
+  font-size: 0.75rem;
+  font-weight: 700;
+  color: #718096;
+  text-transform: uppercase;
+  margin: 0;
+}
+
+.card-value-modern {
+  font-weight: 800;
+  color: #1a202c;
+  margin: 0;
+}
+
+.result-detail-section {
+  margin-bottom: 2rem;
+}
+
+.result-detail-section h4 {
+  font-size: 1.1rem;
+  font-weight: 800;
+  color: #2d3748;
+  display: flex;
+  align-items: center;
+  gap: 0.5rem;
+  margin-bottom: 0.75rem;
+}
+
+.recommendation-text {
+  color: #4a5568;
+  line-height: 1.6;
+}
+
+.benefit-list {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 0.75rem;
+}
+
+.benefit-list li {
+  background: #f7fafc;
+  padding: 0.75rem 1rem;
+  border-radius: 12px;
+  font-size: 0.9rem;
+  font-weight: 600;
+  color: #4a5568;
+}
+
+.benefit-list li::before {
+  content: "•";
+  color: #48bb78;
+  font-weight: 800;
+  margin-right: 0.5rem;
+}
+
+.ai-disclaimer-footer {
+  display: flex;
+  align-items: center;
+  gap: 0.5rem;
+  font-size: 0.75rem;
+  color: #a0aec0;
+  font-weight: 500;
+  padding-top: 1.5rem;
+  border-top: 1px solid #edf2f7;
+}
+
+.spinner {
+  animation: spin 1s linear infinite;
+}
+
+@keyframes spin {
+  to { transform: rotate(360deg); }
+}
+
+@media (max-width: 1024px) {
+  .benefit-list { grid-template-columns: 1fr; }
+}

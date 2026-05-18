@@ -1,0 +1,150 @@
+.farm-mgmt-modern {
+  padding: 1rem;
+}
+
+.mgmt-nav-pills {
+  display: flex;
+  gap: 1rem;
+  background: white;
+  padding: 0.5rem;
+  border-radius: 16px;
+  box-shadow: var(--shadow-sm);
+  margin-bottom: 2.5rem;
+  width: fit-content;
+}
+
+.mgmt-pill {
+  padding: 0.6rem 1.5rem;
+  border: none;
+  background: transparent;
+  border-radius: 12px;
+  font-weight: 700;
+  color: #718096;
+  cursor: pointer;
+  transition: all 0.2s;
+  display: flex;
+  align-items: center;
+  gap: 0.6rem;
+}
+
+.mgmt-pill.active {
+  background: #f0fdf4;
+  color: #48bb78;
+}
+
+.tracker-tabs-row {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 0.75rem;
+  margin-bottom: 2rem;
+}
+
+.tab-btn-soft {
+  padding: 0.5rem 1.25rem;
+  background: white;
+  border: 1px solid #edf2f7;
+  border-radius: 50px;
+  font-size: 0.85rem;
+  font-weight: 700;
+  color: #718096;
+  cursor: pointer;
+  transition: all 0.2s;
+}
+
+.tab-btn-soft.active {
+  background: #48bb78;
+  color: white;
+  border-color: #48bb78;
+  box-shadow: 0 4px 12px rgba(72, 187, 120, 0.2);
+}
+
+.form-grid-modern {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+  gap: 1.5rem;
+  margin-bottom: 1.5rem;
+}
+
+.input-box-modern {
+  display: flex;
+  flex-direction: column;
+  gap: 0.5rem;
+}
+
+.input-box-modern label {
+  font-size: 0.75rem;
+  font-weight: 700;
+  color: #a0aec0;
+  text-transform: uppercase;
+}
+
+.input-box-modern input, .input-box-modern select, .input-box-modern textarea {
+  background: #f7fafc;
+  border: 1px solid #e2e8f0;
+  padding: 0.75rem 1rem;
+  border-radius: 12px;
+  outline: none;
+  font-weight: 600;
+}
+
+.mgmt-table-wrapper {
+  overflow-x: auto;
+  background: white;
+  border-radius: 20px;
+  border: 1px solid #edf2f7;
+}
+
+.mgmt-table {
+  width: 100%;
+  border-collapse: collapse;
+}
+
+.mgmt-table th {
+  background: #f7fafc;
+  padding: 1.25rem;
+  font-size: 0.75rem;
+  font-weight: 800;
+  color: #718096;
+  text-align: left;
+  text-transform: uppercase;
+}
+
+.mgmt-table td {
+  padding: 1.25rem;
+  border-top: 1px solid #edf2f7;
+  font-size: 0.9rem;
+  font-weight: 600;
+  color: #2d3748;
+}
+
+.row-done {
+  background: #f0fdf4;
+  opacity: 0.8;
+}
+
+.status-check-btn {
+  background: #f0fdf4;
+  color: #48bb78;
+  border: 1px solid #c6f6d5;
+  padding: 4px 12px;
+  border-radius: 6px;
+  font-size: 0.75rem;
+  font-weight: 700;
+  cursor: pointer;
+}
+
+.del-btn-soft {
+  background: #fff5f5;
+  color: #f56565;
+  border: 1px solid #fed7d7;
+  padding: 4px 12px;
+  border-radius: 6px;
+  font-size: 0.75rem;
+  font-weight: 700;
+  cursor: pointer;
+}
+
+@media (max-width: 768px) {
+  .mgmt-nav-pills { width: 100%; overflow-x: auto; flex-wrap: nowrap; }
+  .form-grid-modern { grid-template-columns: 1fr; }
+}

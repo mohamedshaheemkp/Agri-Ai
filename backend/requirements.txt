@@ -1,0 +1,42 @@
+# PyTorch and GPU
+torch
+torchvision
+torchaudio
+
+# YOLO & Object Detection
+ultralytics>=8.0.0
+
+# Core Data & Image Processing
+numpy
+opencv-python
+pillow
+
+# Augmentation, Logging, and Utilities
+albumentations==1.3.1
+pyyaml==6.0.3
+tqdm==4.67.3
+
+# Plotting and Data Analysis
+matplotlib==3.10.8
+seaborn==0.13.2
+pandas==2.3.3
+
+# Machine Learning & Tracking
+tensorboard==2.20.0
+scikit-learn==1.7.2
+scikit-image==0.25.2
+
+# System & Architecture Utilities
+gitpython==3.1.46
+psutil==7.2.2
+thop==0.1.1.post2209072238
+setuptools>=65.0.0
+
+# API and Web Server
+fastapi==0.110.0
+uvicorn==0.29.0
+python-multipart==0.0.9
+
+# Database & Environment
+pymongo>=4.0.0
+python-dotenv>=1.0.0

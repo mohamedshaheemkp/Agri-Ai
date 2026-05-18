@@ -1,0 +1,464 @@
+{
+  "Beet armyworm": {
+    "crop": "Rubber, Various Crops",
+    "scientific_name": "Spodoptera exigua",
+    "type": "Pest - Moth Larvae",
+    "treatment": [
+      "Spray with Bacillus thuringiensis (Bt)",
+      "Use spinosad-based insecticides",
+      "Apply pyrethrin or pyrethroids",
+      "Neem oil spray for organic control",
+      "Hand-pick affected leaves early morning"
+    ],
+    "preventive_measures": [
+      "Monitor crops weekly for early detection",
+      "Use sticky traps to monitor moth population",
+      "Maintain crop hygiene and remove debris",
+      "Encourage natural predators (ladybugs, parasitic wasps)",
+      "Crop rotation with non-host plants",
+      "Avoid excessive nitrogen fertilization"
+    ],
+    "severity": "High",
+    "impact": "Larvae feed on leaves causing irregular holes and feeding damage"
+  },
+  "Cotton bollworm": {
+    "crop": "Cotton, Tomato, Corn",
+    "scientific_name": "Helicoverpa armigera",
+    "type": "Pest - Moth Larvae",
+    "treatment": [
+      "Spray Bt (Bacillus thuringiensis) formulations",
+      "Use synthetic pyrethroid insecticides",
+      "Apply hexaflumuron for growth inhibition",
+      "Field sanitation and manual removal",
+      "Pheromone traps for monitoring"
+    ],
+    "preventive_measures": [
+      "Plant early-maturing cotton varieties",
+      "Use insect-resistant crop varieties",
+      "Maintain good field sanitation",
+      "Intercropping with trap crops",
+      "Regular scouting and monitoring",
+      "Avoid using broad-spectrum pesticides that kill natural enemies"
+    ],
+    "severity": "Critical",
+    "impact": "Feeds on flower buds and bolls, reducing yield significantly"
+  },
+  "Green peach aphid": {
+    "crop": "Rubber, Peach, Vegetables",
+    "scientific_name": "Myzus persicae",
+    "type": "Pest - Sap-Sucking Insect",
+    "treatment": [
+      "Spray with insecticidal soap",
+      "Use neem oil spray",
+      "Apply pyrethrins for quick knockdown",
+      "Use systemic insecticides if severe",
+      "Water spray to dislodge aphids"
+    ],
+    "preventive_measures": [
+      "Introduce ladybugs and hoverflies",
+      "Use reflective mulches to confuse aphids",
+      "Remove volunteer plants and weeds",
+      "Grow tolerant or resistant varieties",
+      "Regular inspection of plants",
+      "Maintain balanced nitrogen levels"
+    ],
+    "severity": "Medium",
+    "impact": "Transmits plant viruses and causes yellowing of leaves"
+  },
+  "Silverleaf whitefly": {
+    "crop": "Vegetables, Melons, Beans",
+    "scientific_name": "Bemisia tabaci",
+    "type": "Pest - Sap-Sucking Insect",
+    "treatment": [
+      "Spray with insecticidal soap",
+      "Use yellow sticky traps",
+      "Apply neem oil twice weekly",
+      "Use sulfur sprays",
+      "Spinosad for persistent infestations"
+    ],
+    "preventive_measures": [
+      "Use resistant varieties when available",
+      "Install yellow sticky traps for monitoring",
+      "Remove infested plants promptly",
+      "Maintain good air circulation",
+      "Avoid high nitrogen fertilization",
+      "Control weeds which are alternate hosts"
+    ],
+    "severity": "High",
+    "impact": "Causes leaf yellowing, sooty mold, and virus transmission"
+  },
+  "Tobacco cutworm": {
+    "crop": "Various Vegetables and Tobacco",
+    "scientific_name": "Chloridea virescens",
+    "type": "Pest - Moth Larvae",
+    "treatment": [
+      "Apply Bt (Bacillus thuringiensis) spray",
+      "Use chlorpyrifos or cypermethrin",
+      "Hand-pick caterpillars from plants",
+      "Destroy alternative host plants",
+      "Pheromone traps for monitoring"
+    ],
+    "preventive_measures": [
+      "Regular scouting for eggs and larvae",
+      "Maintain crop-free periods between seasons",
+      "Plant early maturing varieties",
+      "Use physical barriers like netting",
+      "Encourage parasitic wasps",
+      "Deep plowing to destroy pupae"
+    ],
+    "severity": "High",
+    "impact": "Larvae bore into fruits and flowers causing direct damage"
+  },
+  "melon fly": {
+    "crop": "Cucurbits, Melons, Pumpkins",
+    "scientific_name": "Bactrocera cucurbitae",
+    "type": "Pest - Fruit Fly Larvae",
+    "treatment": [
+      "Use methyl eugenol + malathion traps",
+      "Spray spinosad on fruit surfaces",
+      "Remove and destroy infested fruits immediately",
+      "Use cuelure traps for monitoring males",
+      "Application of pyrethroids"
+    ],
+    "preventive_measures": [
+      "Use fruit bagging technique before fly activity",
+      "Install pheromone and food-based traps",
+      "Remove fallen and infested fruits",
+      "Use resistant varieties if available",
+      "Maintain orchard sanitation",
+      "Early harvest to avoid peak fly season"
+    ],
+    "severity": "Critical",
+    "impact": "Larvae tunnel through fruits making them unmarketable"
+  },
+  "melon thrips": {
+    "crop": "Melons, Cucumbers, Squash",
+    "scientific_name": "Thrips palmi",
+    "type": "Pest - Thrips",
+    "treatment": [
+      "Spray with neem oil",
+      "Use spinosad formulations",
+      "Apply insecticidal soap",
+      "Use blue sticky traps",
+      "Sulfur dust application"
+    ],
+    "preventive_measures": [
+      "Remove weeds and plant residues",
+      "Use mulches to reduce thrips entry",
+      "Install yellow and blue traps for monitoring",
+      "Avoid excessive nitrogen",
+      "Release predatory mites",
+      "Proper spacing for air circulation"
+    ],
+    "severity": "Medium",
+    "impact": "Causes silvering and stippling of leaves and flowers"
+  },
+  "spider mite": {
+    "crop": "Rubber, Coconut, Spices",
+    "scientific_name": "Tetranychus spp.",
+    "type": "Pest - Arachnid",
+    "treatment": [
+      "Spray forcefully with water to dislodge mites",
+      "Apply sulfur dust or spray",
+      "Use miticides like abamectin",
+      "Insecticidal soap applications",
+      "Neem oil spray, especially on leaf undersides"
+    ],
+    "preventive_measures": [
+      "Maintain high humidity if crop tolerates it",
+      "Remove infested plant parts",
+      "Avoid excessive nitrogen fertilization",
+      "Plant resistant varieties",
+      "Maintain weeds near field margins for predator habitat",
+      "Avoid broad-spectrum pesticides"
+    ],
+    "severity": "High",
+    "impact": "Causes fine webbing and yellowing of leaves, reduces photosynthesis"
+  },
+  "Beans_Angular_LeafSpot": {
+    "crop": "Beans",
+    "scientific_name": "Phaeoisariopsis griseola",
+    "type": "Disease - Fungal",
+    "treatment": [
+      "Apply copper-based fungicides",
+      "Spray mancozeb or chlorothalonil",
+      "Remove affected leaves",
+      "Apply sulfur dust",
+      "Bordeaux mixture (1%) for organic control"
+    ],
+    "preventive_measures": [
+      "Use certified disease-free seeds",
+      "Plant resistant varieties when available",
+      "Avoid overhead irrigation",
+      "Improve air circulation through spacing",
+      "Remove crop residue after harvest",
+      "Crop rotation with non-legume crops"
+    ],
+    "severity": "Medium",
+    "impact": "Brown angular spots on leaves reduce photosynthesis and yield"
+  },
+  "Beans_Rust": {
+    "crop": "Beans",
+    "scientific_name": "Uromyces appendiculatus",
+    "type": "Disease - Fungal",
+    "treatment": [
+      "Apply sulfur dust or spray regularly",
+      "Use triazole fungicides",
+      "Spray propiconazole or hexaconazole",
+      "Apply ziram fungicide",
+      "Neem oil for early infection control"
+    ],
+    "preventive_measures": [
+      "Select resistant bean varieties",
+      "Thin plants for better air circulation",
+      "Avoid overhead watering",
+      "Remove fallen leaves and debris",
+      "Destroy infected plant material",
+      "Rotate with non-legume crops"
+    ],
+    "severity": "High",
+    "impact": "Rust pustules reduce photosynthesis and cause leaf drop"
+  },
+  "Strawberry_Angular_LeafSpot": {
+    "crop": "Strawberry",
+    "scientific_name": "Xanthomonas fragariae",
+    "type": "Disease - Bacterial",
+    "treatment": [
+      "Apply copper sulfate spray",
+      "Use copper hydroxide formulations",
+      "Remove and destroy affected leaves",
+      "Avoid working in wet plants",
+      "Sanitize tools between plants"
+    ],
+    "preventive_measures": [
+      "Use disease-free transplants",
+      "Improve drainage to reduce leaf wetness",
+      "Space plants for better air flow",
+      "Avoid overhead irrigation",
+      "Remove volunteer strawberry plants",
+      "Disinfect tools with bleach solution"
+    ],
+    "severity": "Medium",
+    "impact": "Small water-soaked spots appear on leaves and runners"
+  },
+  "Strawberry_Anthracnose_Fruit_Rot": {
+    "crop": "Strawberry",
+    "scientific_name": "Colletotrichum spp.",
+    "type": "Disease - Fungal",
+    "treatment": [
+      "Apply thiophanate-methyl fungicide",
+      "Use azoxystrobin spray",
+      "Apply pyraclostrobin formulations",
+      "Remove infected berries immediately",
+      "Spray baking soda solution (1%)"
+    ],
+    "preventive_measures": [
+      "Remove dead leaves and runners",
+      "Reduce fruit-to-soil contact with mulch",
+      "Improve air circulation in planting area",
+      "Avoid overhead irrigation",
+      "Use disease-resistant varieties",
+      "Keep fruit dry during wet periods"
+    ],
+    "severity": "Critical",
+    "impact": "Dark sunken spots on berries make them unmarketable"
+  },
+  "Strawberry_Blossom_Blight": {
+    "crop": "Strawberry",
+    "scientific_name": "Botrytis cinerea / Monilinia fragariae",
+    "type": "Disease - Fungal",
+    "treatment": [
+      "Apply captan fungicide",
+      "Use myclobutanil spray",
+      "Spray fenhexamid formulations",
+      "Remove infected flowers and berries",
+      "Improve ventilation through pruning"
+    ],
+    "preventive_measures": [
+      "Remove old leaves and dead tissue",
+      "Thin flowers to improve air flow",
+      "Keep plants dry with drip irrigation",
+      "Maintain adequate spacing between plants",
+      "Harvest berries regularly when ripe",
+      "Remove mulch in spring to reduce spore source"
+    ],
+    "severity": "High",
+    "impact": "Flowers and developing berries rot and become covered with gray mold"
+  },
+  "Strawberry_Gray_Mold": {
+    "crop": "Strawberry",
+    "scientific_name": "Botrytis cinerea",
+    "type": "Disease - Fungal",
+    "treatment": [
+      "Apply thiophinate-methyl",
+      "Use fenhexamid fungicide",
+      "Spray iprodione",
+      "Apply boric acid solution",
+      "Remove affected berries daily"
+    ],
+    "preventive_measures": [
+      "Reduce humidity by improving air flow",
+      "Use drip irrigation instead of overhead watering",
+      "Space plants properly for ventilation",
+      "Remove excess litter and dead leaves",
+      "Harvest ripe berries regularly",
+      "Store harvested berries at proper temperature"
+    ],
+    "severity": "Critical",
+    "impact": "Gray mold covers berries making them unmarketable and reducing yield"
+  },
+  "Strawberry_Leaf_Spot": {
+    "crop": "Strawberry",
+    "scientific_name": "Mycosphaerella fragariae",
+    "type": "Disease - Fungal",
+    "treatment": [
+      "Apply mancozeb fungicide",
+      "Use copper hydroxide spray",
+      "Apply myclobutanil",
+      "Remove infected leaves",
+      "Bordeaux mixture (1:1:100)"
+    ],
+    "preventive_measures": [
+      "Use disease-free plants",
+      "Remove old leaves after harvest",
+      "Maintain good air circulation",
+      "Avoid overhead irrigation",
+      "Plant resistant varieties if available",
+      "Mulch to prevent spore splash"
+    ],
+    "severity": "Medium",
+    "impact": "Purple to brown spots on leaves reduce photosynthesis"
+  },
+  "Strawberry_Powdery_Mildew_Fruit": {
+    "crop": "Strawberry",
+    "scientific_name": "Podosphaera aphanis",
+    "type": "Disease - Fungal",
+    "treatment": [
+      "Apply sulfur dust or spray",
+      "Use potassium bicarbonate spray",
+      "Apply triazole fungicides",
+      "Spray neem oil solution",
+      "Baking soda + horticultural oil mixture"
+    ],
+    "preventive_measures": [
+      "Ensure proper spacing for air circulation",
+      "Avoid excessive nitrogen fertilization",
+      "Maintain moderate humidity levels",
+      "Use resistant varieties when available",
+      "Remove infested berries and leaves",
+      "Keep area weed-free"
+    ],
+    "severity": "High",
+    "impact": "White powdery coating on berries affects appearance and marketability"
+  },
+  "Strawberry_Powdery_Mildew_Leaf": {
+    "crop": "Strawberry",
+    "scientific_name": "Podosphaera aphanis",
+    "type": "Disease - Fungal",
+    "treatment": [
+      "Spray sulfur dust regularly",
+      "Use potassium bicarbonate solution",
+      "Apply azoxystrobin fungicide",
+      "Use neem oil spray",
+      "Remove affected leaves"
+    ],
+    "preventive_measures": [
+      "Maintain proper plant spacing",
+      "Avoid high nitrogen application",
+      "Ensure adequate air circulation",
+      "Keep moisture consistent",
+      "Plant disease-resistant varieties",
+      "Remove diseased leaves promptly"
+    ],
+    "severity": "High",
+    "impact": "White powder on leaf surfaces reduces photosynthesis and yield"
+  },
+  "Tomato_Blight": {
+    "crop": "Tomato",
+    "scientific_name": "Phytophthora infestans",
+    "type": "Disease - Fungal",
+    "treatment": [
+      "Apply chlorothalonil fungicide",
+      "Use mancozeb spray",
+      "Apply copper fungicides",
+      "Use metalaxyl for severe infections",
+      "Spray Bordeaux mixture"
+    ],
+    "preventive_measures": [
+      "Use resistant varieties (R1-R11)",
+      "Remove lower leaves to improve air flow",
+      "Avoid overhead watering",
+      "Mulch to reduce spore splash",
+      "Stake and prune for better ventilation",
+      "Destroy infected plants completely"
+    ],
+    "severity": "Critical",
+    "impact": "Water-soaked lesions cause rapid plant death and entire crop loss"
+  },
+  "Tomato_Leaf_Mold": {
+    "crop": "Tomato",
+    "scientific_name": "Passalora fulva (Fulvia fulva)",
+    "type": "Disease - Fungal",
+    "treatment": [
+      "Apply mancozeb fungicide",
+      "Use chlorothalonil spray",
+      "Apply azoxystrobin",
+      "Remove affected leaves",
+      "Spray sulfur dust"
+    ],
+    "preventive_measures": [
+      "Improve greenhouse ventilation",
+      "Use drip irrigation instead of overhead",
+      "Remove lower infected leaves",
+      "Space plants for air circulation",
+      "Use resistant varieties",
+      "Sterilize tools and structures"
+    ],
+    "severity": "Medium",
+    "impact": "Yellow patches on upper leaves with mold on undersides"
+  },
+  "Tomato_Spider_Mites": {
+    "crop": "Tomato",
+    "scientific_name": "Tetranychus urticae",
+    "type": "Pest - Arachnid",
+    "treatment": [
+      "Spray water forcefully to dislodge mites",
+      "Apply sulfur dust",
+      "Use abamectin miticide",
+      "Spray neem oil",
+      "Use predatory mites for biological control"
+    ],
+    "preventive_measures": [
+      "Maintain 60-70% humidity",
+      "Remove infested leaves",
+      "Avoid excessive nitrogen",
+      "Use resistant varieties if available",
+      "Encourage natural predators",
+      "Avoid broad-spectrum pesticides"
+    ],
+    "severity": "High",
+    "impact": "Fine webbing and yellowing leaves reduce yields significantly"
+  },
+  "Weeds": {
+    "crop": "Rubber, Coconut, All Plantation Crops",
+    "scientific_name": "Various weed species",
+    "type": "Weed Competition",
+    "treatment": [
+      "Manual hand-pulling",
+      "Use selective herbicides appropriate for crop",
+      "Apply non-selective herbicides like glyphosate before planting",
+      "Mechanical cultivation and hoeing",
+      "Flame weeding for sensitive areas"
+    ],
+    "preventive_measures": [
+      "Use pre-emergence herbicides",
+      "Apply mulch to suppress weeds",
+      "Maintain proper crop density to shade weeds",
+      "Use cover crops in off-season",
+      "Rotate crops to break weed cycles",
+      "Clean equipment to prevent seed spread"
+    ],
+    "severity": "Medium",
+    "impact": "Compete with crops for water, nutrients, and light"
+  }
+}

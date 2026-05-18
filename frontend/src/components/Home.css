@@ -1,0 +1,283 @@
+/* Whole Page Background */
+body {
+  margin: 0;
+  padding: 0;
+  font-family: "Arial", sans-serif;
+  background: linear-gradient(135deg, #f8fafc, #f1f5f9, #e2e8f0);
+  background-attachment: fixed;
+  background-size: cover;
+  color: #1e293b;
+}
+
+/* Home Section Overrides */
+.home-container h1, .home-container h2, .home-container h3, .home-container h4, .home-container h5, .home-container h6 {
+  color: #0f172a !important;
+}
+.home-container p, .home-container li {
+  color: #334155 !important;
+}
+
+/* Hero Section */
+.hero-section {
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  padding: 80px 20px;
+  background: linear-gradient(135deg, rgba(255, 255, 255, 0.9), rgba(241, 245, 249, 0.8));
+  border-radius: 24px;
+  margin: 40px auto;
+  max-width: 1100px;
+  box-shadow: 0 10px 30px rgba(0, 0, 0, 0.1);
+  backdrop-filter: blur(10px);
+}
+
+.hero-title {
+  font-size: 3rem;
+  font-weight: 800;
+  color: #0f172a;
+  margin-bottom: 20px;
+  text-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+.hero-subtitle {
+  font-size: 1.3rem;
+  font-weight: 500;
+  color: #475569;
+  max-width: 800px;
+  margin: 0 auto;
+  line-height: 1.6;
+}
+
+/* Section Styling */
+section {
+  padding: 60px 20px;
+}
+
+/* Why AgriAI */
+.why-agri {
+  background: #ffffff;
+  border-radius: 16px;
+  padding: 40px;
+  box-shadow: 0 10px 25px rgba(0,0,0,0.1);
+  margin: 40px auto;
+  max-width: 1000px;
+  border: 1px solid rgba(15, 23, 42, 0.1);
+  transition: transform 180ms ease, box-shadow 200ms ease;
+}
+
+/* Scope Cards */
+.scope-card {
+  background: #ffffff;
+  padding: 25px;
+  border-radius: 16px;
+  box-shadow: 0 8px 20px rgba(0,0,0,0.1);
+  height: 100%;
+  transition: transform 0.2s ease, box-shadow 0.3s ease, border-color 0.3s ease;
+  border: 1px solid rgba(15, 23, 42, 0.1);
+}
+.scope-card:hover {
+  transform: translateY(-6px);
+  box-shadow: 0 12px 25px rgba(16, 185, 129, 0.15);
+  border-color: rgba(16, 185, 129, 0.3);
+}
+
+/* About Section */
+.about-section {
+  background: #ffffff;
+  border-radius: 16px;
+  padding: 60px;
+  max-width: 1200px;
+  margin: 40px auto;
+  box-shadow: 0 10px 25px rgba(0,0,0,0.1);
+  text-align: center;
+  border: 1px solid rgba(15, 23, 42, 0.1);
+  transition: transform 180ms ease, box-shadow 200ms ease;
+}
+
+/* Future Section */
+.future-section {
+  background: #f8fafc;
+  border-radius: 16px;
+  padding: 60px;
+  max-width: 1000px;
+  margin: 40px auto;
+  text-align: center;
+  box-shadow: 0 10px 25px rgba(0,0,0,0.1);
+  border: 1px solid rgba(15, 23, 42, 0.1);
+  transition: transform 180ms ease, box-shadow 200ms ease;
+}
+
+/* Pop on hover for section boxes */
+.why-agri:hover,
+.about-section:hover,
+.future-section:hover {
+  transform: translateY(-6px) scale(1.01);
+  box-shadow: 0 15px 35px rgba(0,0,0,0.15);
+}
+
+/* Gentle hover tint to match scope-card behavior */
+.why-agri:hover { background: #f9fafb; }
+.about-section:hover { background: #f9fafb; }
+.future-section:hover { background: #f1f5f9; }
+
+/* Remove old underline hover */
+.navbar-nav .nav-link::after {
+  content: none !important;
+}
+
+/* Enhanced Nav Links Styling */
+.navbar-nav .nav-link {
+  padding: 10px 16px;
+  border-radius: 8px;
+  transition: all 0.3s ease-in-out;
+  font-weight: 600;
+  letter-spacing: 0.2px;
+  position: relative;
+}
+
+.navbar-nav .nav-link:hover {
+  background: rgba(16, 185, 129, 0.1);
+  color: #10b981 !important;
+  transform: translateY(-1px);
+  box-shadow: 0 4px 12px rgba(16, 185, 129, 0.15);
+  text-decoration: none;
+}
+
+/* Active Page Highlight */
+.navbar-nav .nav-link.active {
+  background: linear-gradient(135deg, rgba(16, 185, 129, 0.15), rgba(16, 185, 129, 0.05));
+  color: #10b981 !important;
+  font-weight: 700;
+  box-shadow: 0 6px 16px rgba(16, 185, 129, 0.25);
+  border: 1px solid rgba(16, 185, 129, 0.3);
+}
+
+/* Add subtle glow effect to active links */
+.navbar-nav .nav-link.active::before {
+  content: '';
+  position: absolute;
+  top: -2px;
+  left: -2px;
+  right: -2px;
+  bottom: -2px;
+  background: linear-gradient(135deg, rgba(16, 185, 129, 0.3), rgba(16, 185, 129, 0));
+  border-radius: 10px;
+  z-index: -1;
+  filter: blur(4px);
+}
+
+/* Enhanced Titles */
+.section-title {
+  font-weight: 800;
+  color: #0f172a;
+  letter-spacing: 0.3px;
+  margin-bottom: 18px;
+  transition: transform 180ms ease, text-shadow 180ms ease, color 180ms ease;
+}
+
+/* Hover pop for key section titles */
+.why-agri .section-title:hover,
+.about-section .section-title:hover,
+.future-section .section-title:hover {
+  transform: translateY(-2px) scale(1.02);
+  text-shadow: 0 2px 8px rgba(15, 23, 42, 0.15);
+}
+
+/* Why list styling */
+.why-list {
+  list-style: none;
+  padding: 0;
+  margin: 18px auto 0;
+  max-width: 760px;
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 12px 18px;
+}
+.why-list li {
+  background: #f8fafc;
+  border: 1px solid rgba(15, 23, 42, 0.1);
+  border-radius: 12px;
+  padding: 12px 14px;
+  box-shadow: 0 4px 12px rgba(0,0,0,0.06);
+  color: #334155;
+  font-weight: 500;
+}
+.why-list li:hover {
+  background: #f1f5f9;
+  border-color: rgba(16, 185, 129, 0.3);
+  box-shadow: 0 6px 16px rgba(16, 185, 129, 0.1);
+}
+
+/* Hero polish */
+.hero-btn { 
+  box-shadow: 0 8px 18px rgba(16, 185, 129, 0.35); 
+  border: none;
+  font-weight: 600;
+  padding: 14px 32px;
+  font-size: 1.1rem;
+}
+.hero-btn:hover { 
+  transform: translateY(-3px); 
+  box-shadow: 0 12px 24px rgba(16, 185, 129, 0.45); 
+}
+
+/* Responsive tweaks */
+@media (max-width: 768px) {
+  .hero-title { font-size: 2.2rem; }
+  .hero-subtitle { font-size: 1.05rem; }
+  .why-list { grid-template-columns: 1fr; }
+}
+
+@media (max-width: 576px) {
+  section { padding: 44px 16px; }
+}
+
+/* --- Smooth Animations --- */
+@keyframes fadeUp {
+  0% { opacity: 0; transform: translateY(14px); }
+  100% { opacity: 1; transform: translateY(0); }
+}
+@keyframes fadeIn {
+  0% { opacity: 0; }
+  100% { opacity: 1; }
+}
+
+/* Animate hero and sections on load */
+.hero-section { animation: fadeUp 700ms ease-out both; }
+.why-agri { animation: fadeUp 700ms ease-out 120ms both; }
+.scope-section { animation: fadeUp 700ms ease-out 180ms both; }
+.about-section { animation: fadeUp 700ms ease-out 220ms both; }
+.future-section { animation: fadeUp 700ms ease-out 260ms both; }
+
+/* --- On-scroll reveal (IntersectionObserver) --- */
+.reveal {
+  opacity: 0;
+  transform: translateY(16px) scale(0.99);
+  transition: opacity 600ms ease, transform 600ms ease;
+  animation: none !important; /* override any prior load animations */
+}
+.reveal.in-view {
+  opacity: 1;
+  transform: none;
+}
+
+/* Stagger reveal for scope cards via transition-delay */
+.scope-section .col-md-4:nth-child(1) .scope-card { transition-delay: 100ms; }
+.scope-section .col-md-4:nth-child(2) .scope-card { transition-delay: 200ms; }
+.scope-section .col-md-4:nth-child(3) .scope-card { transition-delay: 300ms; }
+
+/* Reduce motion preference */
+@media (prefers-reduced-motion: reduce) {
+  .hero-section,
+  .why-agri,
+  .scope-section,
+  .about-section,
+  .future-section,
+  .scope-section .scope-card {
+    animation: none !important;
+    transition: none !important;
+  }
+}
